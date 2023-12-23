@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F1098AA2B36A70600281BB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1098A92B36A70600281BB9 /* AppDelegate.swift */; };
+		8F1098AC2B36A70600281BB9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1098AB2B36A70600281BB9 /* SceneDelegate.swift */; };
+		8F1098AE2B36A70600281BB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1098AD2B36A70600281BB9 /* ViewController.swift */; };
+		8F1098B12B36A70600281BB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F1098AF2B36A70600281BB9 /* Main.storyboard */; };
+		8F1098B32B36A70700281BB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F1098B22B36A70700281BB9 /* Assets.xcassets */; };
+		8F1098B62B36A70700281BB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F1098B42B36A70700281BB9 /* LaunchScreen.storyboard */; };
+		8F1098C12B36A70700281BB9 /* NursTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1098C02B36A70700281BB9 /* NursTimerTests.swift */; };
+		8F1098CB2B36A70700281BB9 /* NursTimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1098CA2B36A70700281BB9 /* NursTimerUITests.swift */; };
+		8F1098CD2B36A70700281BB9 /* NursTimerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1098CC2B36A70700281BB9 /* NursTimerUITestsLaunchTests.swift */; };
+		8F1098DA2B36A7A900281BB9 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1098D92B36A7A900281BB9 /* TableViewController.swift */; };
+		8F1098DC2B37056A00281BB9 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1098DB2B37056A00281BB9 /* File.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8F1098BD2B36A70700281BB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F10989E2B36A70600281BB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F1098A52B36A70600281BB9;
+			remoteInfo = NursTimer;
+		};
+		8F1098C72B36A70700281BB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F10989E2B36A70600281BB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F1098A52B36A70600281BB9;
+			remoteInfo = NursTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8F1098A62B36A70600281BB9 /* NursTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NursTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F1098A92B36A70600281BB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8F1098AB2B36A70600281BB9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8F1098AD2B36A70600281BB9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8F1098B02B36A70600281BB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8F1098B22B36A70700281BB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F1098B52B36A70700281BB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8F1098B72B36A70700281BB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F1098BC2B36A70700281BB9 /* NursTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NursTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F1098C02B36A70700281BB9 /* NursTimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NursTimerTests.swift; sourceTree = "<group>"; };
+		8F1098C62B36A70700281BB9 /* NursTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NursTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F1098CA2B36A70700281BB9 /* NursTimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NursTimerUITests.swift; sourceTree = "<group>"; };
+		8F1098CC2B36A70700281BB9 /* NursTimerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NursTimerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8F1098D92B36A7A900281BB9 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		8F1098DB2B37056A00281BB9 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F1098A32B36A70600281BB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F1098B92B36A70700281BB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F1098C32B36A70700281BB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F10989D2B36A70600281BB9 = {
+			isa = PBXGroup;
+			children = (
+				8F1098A82B36A70600281BB9 /* NursTimer */,
+				8F1098BF2B36A70700281BB9 /* NursTimerTests */,
+				8F1098C92B36A70700281BB9 /* NursTimerUITests */,
+				8F1098A72B36A70600281BB9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F1098A72B36A70600281BB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F1098A62B36A70600281BB9 /* NursTimer.app */,
+				8F1098BC2B36A70700281BB9 /* NursTimerTests.xctest */,
+				8F1098C62B36A70700281BB9 /* NursTimerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F1098A82B36A70600281BB9 /* NursTimer */ = {
+			isa = PBXGroup;
+			children = (
+				8F1098A92B36A70600281BB9 /* AppDelegate.swift */,
+				8F1098AB2B36A70600281BB9 /* SceneDelegate.swift */,
+				8F1098AD2B36A70600281BB9 /* ViewController.swift */,
+				8F1098DB2B37056A00281BB9 /* File.swift */,
+				8F1098D92B36A7A900281BB9 /* TableViewController.swift */,
+				8F1098AF2B36A70600281BB9 /* Main.storyboard */,
+				8F1098B22B36A70700281BB9 /* Assets.xcassets */,
+				8F1098B42B36A70700281BB9 /* LaunchScreen.storyboard */,
+				8F1098B72B36A70700281BB9 /* Info.plist */,
+			);
+			path = NursTimer;
+			sourceTree = "<group>";
+		};
+		8F1098BF2B36A70700281BB9 /* NursTimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				8F1098C02B36A70700281BB9 /* NursTimerTests.swift */,
+			);
+			path = NursTimerTests;
+			sourceTree = "<group>";
+		};
+		8F1098C92B36A70700281BB9 /* NursTimerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8F1098CA2B36A70700281BB9 /* NursTimerUITests.swift */,
+				8F1098CC2B36A70700281BB9 /* NursTimerUITestsLaunchTests.swift */,
+			);
+			path = NursTimerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F1098A52B36A70600281BB9 /* NursTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F1098D02B36A70700281BB9 /* Build configuration list for PBXNativeTarget "NursTimer" */;
+			buildPhases = (
+				8F1098A22B36A70600281BB9 /* Sources */,
+				8F1098A32B36A70600281BB9 /* Frameworks */,
+				8F1098A42B36A70600281BB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NursTimer;
+			productName = NursTimer;
+			productReference = 8F1098A62B36A70600281BB9 /* NursTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8F1098BB2B36A70700281BB9 /* NursTimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F1098D32B36A70700281BB9 /* Build configuration list for PBXNativeTarget "NursTimerTests" */;
+			buildPhases = (
+				8F1098B82B36A70700281BB9 /* Sources */,
+				8F1098B92B36A70700281BB9 /* Frameworks */,
+				8F1098BA2B36A70700281BB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F1098BE2B36A70700281BB9 /* PBXTargetDependency */,
+			);
+			name = NursTimerTests;
+			productName = NursTimerTests;
+			productReference = 8F1098BC2B36A70700281BB9 /* NursTimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8F1098C52B36A70700281BB9 /* NursTimerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F1098D62B36A70700281BB9 /* Build configuration list for PBXNativeTarget "NursTimerUITests" */;
+			buildPhases = (
+				8F1098C22B36A70700281BB9 /* Sources */,
+				8F1098C32B36A70700281BB9 /* Frameworks */,
+				8F1098C42B36A70700281BB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F1098C82B36A70700281BB9 /* PBXTargetDependency */,
+			);
+			name = NursTimerUITests;
+			productName = NursTimerUITests;
+			productReference = 8F1098C62B36A70700281BB9 /* NursTimerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F10989E2B36A70600281BB9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					8F1098A52B36A70600281BB9 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					8F1098BB2B36A70700281BB9 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 8F1098A52B36A70600281BB9;
+					};
+					8F1098C52B36A70700281BB9 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 8F1098A52B36A70600281BB9;
+					};
+				};
+			};
+			buildConfigurationList = 8F1098A12B36A70600281BB9 /* Build configuration list for PBXProject "NursTimer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F10989D2B36A70600281BB9;
+			productRefGroup = 8F1098A72B36A70600281BB9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F1098A52B36A70600281BB9 /* NursTimer */,
+				8F1098BB2B36A70700281BB9 /* NursTimerTests */,
+				8F1098C52B36A70700281BB9 /* NursTimerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F1098A42B36A70600281BB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F1098B62B36A70700281BB9 /* LaunchScreen.storyboard in Resources */,
+				8F1098B32B36A70700281BB9 /* Assets.xcassets in Resources */,
+				8F1098B12B36A70600281BB9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F1098BA2B36A70700281BB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F1098C42B36A70700281BB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F1098A22B36A70600281BB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F1098DC2B37056A00281BB9 /* File.swift in Sources */,
+				8F1098AE2B36A70600281BB9 /* ViewController.swift in Sources */,
+				8F1098AA2B36A70600281BB9 /* AppDelegate.swift in Sources */,
+				8F1098AC2B36A70600281BB9 /* SceneDelegate.swift in Sources */,
+				8F1098DA2B36A7A900281BB9 /* TableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F1098B82B36A70700281BB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F1098C12B36A70700281BB9 /* NursTimerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F1098C22B36A70700281BB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F1098CD2B36A70700281BB9 /* NursTimerUITestsLaunchTests.swift in Sources */,
+				8F1098CB2B36A70700281BB9 /* NursTimerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F1098BE2B36A70700281BB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F1098A52B36A70600281BB9 /* NursTimer */;
+			targetProxy = 8F1098BD2B36A70700281BB9 /* PBXContainerItemProxy */;
+		};
+		8F1098C82B36A70700281BB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F1098A52B36A70600281BB9 /* NursTimer */;
+			targetProxy = 8F1098C72B36A70700281BB9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8F1098AF2B36A70600281BB9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F1098B02B36A70600281BB9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8F1098B42B36A70700281BB9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F1098B52B36A70700281BB9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F1098CE2B36A70700281BB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8F1098CF2B36A70700281BB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F1098D12B36A70700281BB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NursTimer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nursat.NursTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F1098D22B36A70700281BB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NursTimer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nursat.NursTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8F1098D42B36A70700281BB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nursat.NursTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NursTimer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NursTimer";
+			};
+			name = Debug;
+		};
+		8F1098D52B36A70700281BB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nursat.NursTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NursTimer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NursTimer";
+			};
+			name = Release;
+		};
+		8F1098D72B36A70700281BB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nursat.NursTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NursTimer;
+			};
+			name = Debug;
+		};
+		8F1098D82B36A70700281BB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nursat.NursTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NursTimer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F1098A12B36A70600281BB9 /* Build configuration list for PBXProject "NursTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F1098CE2B36A70700281BB9 /* Debug */,
+				8F1098CF2B36A70700281BB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F1098D02B36A70700281BB9 /* Build configuration list for PBXNativeTarget "NursTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F1098D12B36A70700281BB9 /* Debug */,
+				8F1098D22B36A70700281BB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F1098D32B36A70700281BB9 /* Build configuration list for PBXNativeTarget "NursTimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F1098D42B36A70700281BB9 /* Debug */,
+				8F1098D52B36A70700281BB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F1098D62B36A70700281BB9 /* Build configuration list for PBXNativeTarget "NursTimerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F1098D72B36A70700281BB9 /* Debug */,
+				8F1098D82B36A70700281BB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F10989E2B36A70600281BB9 /* Project object */;
+}
